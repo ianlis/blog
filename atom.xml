@@ -6,7 +6,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://missingli.github.io/blog/"/>
-  <updated>2018-08-21T09:04:52.304Z</updated>
+  <updated>2018-08-22T09:21:30.540Z</updated>
   <id>https://missingli.github.io/blog/</id>
   
   <author>
@@ -17,37 +17,29 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>第一篇博客</title>
-    <link href="https://missingli.github.io/blog/uncategorized/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>https://missingli.github.io/blog/uncategorized/第一篇博客/</id>
-    <published>2018-08-21T09:04:52.000Z</published>
-    <updated>2018-08-21T09:04:52.304Z</updated>
+    <title>hexo添加categories和tags</title>
+    <link href="https://missingli.github.io/blog/hexo/hexo%E6%B7%BB%E5%8A%A0categories%E5%92%8Ctags/"/>
+    <id>https://missingli.github.io/blog/hexo/hexo添加categories和tags/</id>
+    <published>2018-08-22T08:31:17.000Z</published>
+    <updated>2018-08-22T09:21:30.540Z</updated>
     
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://missingli.github.io/blog/uncategorized/hello-world/"/>
-    <id>https://missingli.github.io/blog/uncategorized/hello-world/</id>
-    <published>2018-08-21T08:54:31.108Z</published>
-    <updated>2018-08-21T08:54:31.108Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="1-添加categories（分类）"><a href="#1-添加categories（分类）" class="headerlink" title="1.添加categories（分类）"></a>1.添加categories（分类）</h3><h4 id="1-1-生成分类页"><a href="#1-1-生成分类页" class="headerlink" title="1.1 生成分类页"></a>1.1 生成分类页</h4><p>打开命令行，进入博客所在文件夹，执行命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure></p><p>成功后提示：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO  Created: ~/Documents/blog/source/categories/index.md</span><br></pre></td></tr></table></figure></p><p>根据提示路径，找到并打开<code>index.md</code>文件，添加<code>type: &quot;categories&quot;</code>到内容中，添加完成后如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 分类</span><br><span class="line">date: 2018-01-01 00:00:00</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure></p><h4 id="1-2-给文章添加“categories”属性"><a href="#1-2-给文章添加“categories”属性" class="headerlink" title="1.2 给文章添加“categories”属性"></a>1.2 给文章添加“categories”属性</h4><p>打开需要添加分类的文章，为其添加categories属性。下方的categories: web前端表示添加这篇文章到“web前端”这个分类。注意：hexo一篇文章只能属于一个分类，也就是说如果在“- web前端”下方添加“-xxx”，hexo不会产生两个分类，而是把分类嵌套（即该文章属于 “- web前端”下的 “-xxx ”分类）。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: jQuery对表单的操作及更多应用</span><br><span class="line">date: 2017-05-26 12:12:57</span><br><span class="line">categories: </span><br><span class="line">- web前端</span><br><span class="line">---</span><br></pre></td></tr></table></figure></p><p>至此，<code>分类</code>添加完成，点击导航栏的“分类”按钮可以看到已添加的分类列表。</p><h3 id="2-添加tags（标签）"><a href="#2-添加tags（标签）" class="headerlink" title="2.添加tags（标签）"></a>2.添加tags（标签）</h3><h4 id="2-1-生成“标签”页"><a href="#2-1-生成“标签”页" class="headerlink" title="2.1 生成“标签”页"></a>2.1 生成“标签”页</h4><p>打开命令行，进入博客所在文件夹，执行命令<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure></p><p>成功后会提示：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO  Created: ~/Documents/blog/source/tags/index.md</span><br></pre></td></tr></table></figure></p><p>根据提示路径，找到并打开<code>index.md</code>文件，添加<code>type: &quot;tags&quot;</code>到内容中，添加完成后如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 标签</span><br><span class="line">date: 2018-01-01 00:00:00</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure></p><h4 id="2-2-给文章添加“tags”属性"><a href="#2-2-给文章添加“tags”属性" class="headerlink" title="2.2 给文章添加“tags”属性"></a>2.2 给文章添加“tags”属性</h4><p>打开需要添加标签的文章，为其添加tags属性。<br>下方的<code>tags</code>属性下面的<code>- jQuery</code>就是这篇文章的标签了。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: jQuery</span><br><span class="line">date: 2018-01-01 00:00:00</span><br><span class="line">categories: </span><br><span class="line">- web前端</span><br><span class="line">tags:</span><br><span class="line">- jQuery</span><br><span class="line">---</span><br></pre></td></tr></table></figure></p><p>至此，<code>标签</code>添加完成，点击导航栏的“标签”按钮可以看到已添加的标签列表。</p><blockquote><p>上诉两个的配置几乎一模一样！所以我们可以打开<code>scaffolds/post.md</code>文件，在<code>tages:</code>上方添加<code>categories:</code>属性，保存之后执行<code>hexo new XXX</code>命令生成的文章，将默认带有<code>categories:</code>属性。</p></blockquote><blockquote><p><code>scaffolds</code>目录下，是新建页面的模板，执行新建命令时，是根据这里的模板页来完成的，所以可以在这里根据需求添加一些默认值。</p></blockquote>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;h3 id=&quot;1-添加categories（分类）&quot;&gt;&lt;a href=&quot;#1-添加categories（分类）&quot; class=&quot;headerlink&quot; title=&quot;1.添加categories（分类）&quot;&gt;&lt;/a&gt;1.添加categories（分类）&lt;/h3&gt;&lt;h4 id=&quot;1
       
     
     </summary>
     
+      <category term="hexo" scheme="https://missingli.github.io/blog/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://missingli.github.io/blog/tags/hexo/"/>
+    
+      <category term="教程" scheme="https://missingli.github.io/blog/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   

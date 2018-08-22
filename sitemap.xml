@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://missingli.github.io/blog/uncategorized/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://missingli.github.io/blog/hexo/hexo%E6%B7%BB%E5%8A%A0categories%E5%92%8Ctags/</loc>
     
-    <lastmod>2018-08-21T09:04:52.304Z</lastmod>
+    <lastmod>2018-08-22T09:21:30.540Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://missingli.github.io/blog/uncategorized/hello-world/</loc>
+    <loc>https://missingli.github.io/blog/tags/index.html</loc>
     
-    <lastmod>2018-08-21T08:54:31.108Z</lastmod>
+    <lastmod>2018-08-22T02:12:56.756Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://missingli.github.io/blog/categories/index.html</loc>
+    
+    <lastmod>2018-08-22T02:10:38.351Z</lastmod>
     
   </url>
   

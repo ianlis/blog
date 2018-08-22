@@ -4,32 +4,26 @@
 
     
   <url>
-    <loc>https://missingli.github.io/blog/blog/uncategorized/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2018-08-21T09:04:52.304Z</lastmod>
+    <loc>https://missingli.github.io/blog/blog/hexo/hexo%E6%B7%BB%E5%8A%A0categories%E5%92%8Ctags/</loc>
+    <lastmod>2018-08-22T09:21:30.540Z</lastmod>
     <data>
         <display>
-        <title>第一篇博客</title>
-        <pubTime>2018-08-21T09:04:52.000Z</pubTime>
+        <title>hexo添加categories和tags</title>
+        <pubTime>2018-08-22T08:31:17.000Z</pubTime>
         
+        <tag>hexo</tag>
+         
+        <tag>教程</tag>
+         
          
            
+             
+              <breadCrumb title="hexo" url="https://missingli.github.io/blog/blog/categories/hexo/"/>
+          
         </display>
     </data>
     </url>
 
     
-  <url>
-    <loc>https://missingli.github.io/blog/blog/uncategorized/hello-world/</loc>
-    <lastmod>2018-08-21T08:54:31.108Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2018-08-21T08:54:31.108Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
+    
 </urlset>
