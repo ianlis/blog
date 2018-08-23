@@ -4,12 +4,71 @@
 
     
   <url>
-    <loc>https://missingli.github.io/blog/blog/hexo/hexo%E6%B7%BB%E5%8A%A0categories%E5%92%8Ctags/</loc>
-    <lastmod>2018-08-22T09:21:30.540Z</lastmod>
+    <loc>https://missingli.github.io/blog/blog/uncategorized/33f59116/</loc>
+    <lastmod>2018-08-23T08:28:14.787Z</lastmod>
     <data>
         <display>
-        <title>hexo添加categories和tags</title>
+        <title>hexo常用命令</title>
+        <pubTime>2018-08-23T08:13:42.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://missingli.github.io/blog/blog/hexo/2e2c4df6/</loc>
+    <lastmod>2018-08-23T08:28:13.148Z</lastmod>
+    <data>
+        <display>
+        <title>hexo系列（一）主题及优化</title>
+        <pubTime>2018-08-23T02:59:10.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>教程</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="https://missingli.github.io/blog/blog/categories/hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://missingli.github.io/blog/blog/hexo/d8cce6d0/</loc>
+    <lastmod>2018-08-23T08:28:09.246Z</lastmod>
+    <data>
+        <display>
+        <title>hexo系列（二）创建categories和tags导航</title>
         <pubTime>2018-08-22T08:31:17.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>教程</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="https://missingli.github.io/blog/blog/categories/hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://missingli.github.io/blog/blog/hexo/d13a57e3/</loc>
+    <lastmod>2018-08-23T08:28:05.309Z</lastmod>
+    <data>
+        <display>
+        <title>hexo系列（三）插件</title>
+        <pubTime>2018-08-23T02:59:10.000Z</pubTime>
         
         <tag>hexo</tag>
          

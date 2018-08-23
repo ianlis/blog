@@ -1,8 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[hexo添加categories和tags]]></title>
-    <url>%2Fblog%2Fhexo%2Fhexo%E6%B7%BB%E5%8A%A0categories%E5%92%8Ctags%2F</url>
+    <title><![CDATA[hexo常用命令]]></title>
+    <url>%2Fblog%2Funcategorized%2F33f59116%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo系列（三）插件]]></title>
+    <url>%2Fblog%2Fhexo%2Fd13a57e3%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo系列（一）主题及优化]]></title>
+    <url>%2Fblog%2Fhexo%2F2e2c4df6%2F</url>
+    <content type="text"></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[hexo系列（二）创建categories和tags导航]]></title>
+    <url>%2Fblog%2Fhexo%2Fd8cce6d0%2F</url>
     <content type="text"><![CDATA[1.添加categories（分类）1.1 生成分类页打开命令行，进入博客所在文件夹，执行命令1hexo new page categories 成功后提示：1INFO Created: ~/Documents/blog/source/categories/index.md 根据提示路径，找到并打开index.md文件，添加type: &quot;categories&quot;到内容中，添加完成后如下：12345---title: 分类date: 2018-01-01 00:00:00type: &quot;categories&quot;--- 1.2 给文章添加“categories”属性打开需要添加分类的文章，为其添加categories属性。下方的categories: web前端表示添加这篇文章到“web前端”这个分类。注意：hexo一篇文章只能属于一个分类，也就是说如果在“- web前端”下方添加“-xxx”，hexo不会产生两个分类，而是把分类嵌套（即该文章属于 “- web前端”下的 “-xxx ”分类）。123456---title: jQuery对表单的操作及更多应用date: 2017-05-26 12:12:57categories: - web前端--- 至此，分类添加完成，点击导航栏的“分类”按钮可以看到已添加的分类列表。 2.添加tags（标签）2.1 生成“标签”页打开命令行，进入博客所在文件夹，执行命令1hexo new page tags 成功后会提示：1INFO Created: ~/Documents/blog/source/tags/index.md 根据提示路径，找到并打开index.md文件，添加type: &quot;tags&quot;到内容中，添加完成后如下：12345---title: 标签date: 2018-01-01 00:00:00type: &quot;tags&quot;--- 2.2 给文章添加“tags”属性打开需要添加标签的文章，为其添加tags属性。下方的tags属性下面的- jQuery就是这篇文章的标签了。12345678---title: jQuerydate: 2018-01-01 00:00:00categories: - web前端tags:- jQuery--- 至此，标签添加完成，点击导航栏的“标签”按钮可以看到已添加的标签列表。 上诉两个的配置几乎一模一样！所以我们可以打开scaffolds/post.md文件，在tages:上方添加categories:属性，保存之后执行hexo new XXX命令生成的文章，将默认带有categories:属性。 scaffolds目录下，是新建页面的模板，执行新建命令时，是根据这里的模板页来完成的，所以可以在这里根据需求添加一些默认值。]]></content>
       <categories>
         <category>hexo</category>
@@ -13,13 +42,13 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[标签]]></title>
-    <url>%2Fblog%2Ftags%2Findex.html</url>
+    <title><![CDATA[文章分类]]></title>
+    <url>%2Fblog%2Fcategories%2Findex.html</url>
     <content type="text"></content>
   </entry>
   <entry>
-    <title><![CDATA[文章分类]]></title>
-    <url>%2Fblog%2Fcategories%2Findex.html</url>
+    <title><![CDATA[标签]]></title>
+    <url>%2Fblog%2Ftags%2Findex.html</url>
     <content type="text"></content>
   </entry>
 </search>
